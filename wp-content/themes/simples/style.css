@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/*
+Theme Name: Aula Wordpress
+Theme URI: http://www.torneseumprogramador.com.br/themas/aula_wp
+Author: Torne-se um programador
+Author URI: http://www.torneseumprogramador.com.br
+Description: Tema criado an segunda aula de wordpres do torne-se um programador
+Version: 0.0.1
+License: Free
+License URI: http://www.torneseumprogramador.com.br
+Text Domain: torneseumprogramador
+Tags: torneseumprogramador, programador, aula, tema
+
+Aprenda gratuitamente com os nossos conteúdos gravados, anote tudo e pague somente para tirar dúvidas em aulas particulares
+
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+*/
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.debugg{
+    background-color: red;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/*DAQUI PRA CIMA VALORES PADRÕES*/
+/*BACKGROUND AZUL DAS SEÇÕES*/
+.bg-blue{
+    background-color: #0036bf;
+}
+/*FUNDO COR ONDE FICA O NUMERO WHATS*/
+.bg-color-zapp{
+    background-color: #0036bf;
+    height: 40px;
+}
+/*ESTILO DO NUMERO WHATS*/
+.btn-zap{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+/*BOTÃO DE ASSINAR AGORA NO TOPO*/
+.btn{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.btn-primary{
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color:
+    #0036bf;
+    background-color:
+    #ffbc1e;
+    border-radius: 14px;
+    border: solid 1px
+    #fba500;
+}
+/*BG DO CABEÇALHO ONDE FICA A FOTO DO TORNE-SE UM PROGRAMADOR*/
+.bg-color-header{
+    height: 65px;
+    box-shadow: 0 3px 6px 0 rgba(0, 18, 64, 0.16);
+    background-color: #ffffff;
+}
+/*----- TOPO -----*/
+.title-header{
+
+    font-size: 2.0rem;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color:
+    #0036bf;
+}
+.paragrafo-header{
+
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.81;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0036bf;
+}
+.pep-title{
+    
+    font-family: Nunito;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.81;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0036bf;
+}
+.pep-paragrafo{
+    
+    font-family: Nunito;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.81;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0036bf;
+
+}
+/*DAQUI PRA CIMA ESTILO DO HEADER*/
+.check ul {
+    margin-left: -35px;
+}
+.check ul li{
+    padding: 7px 0 7px 40px;
+    list-style: none;
+    background: url(img/corrigido.png) no-repeat left center;
+}
+.check-2 ul {
+    margin-left: -12px;
+    padding-right: 50px;
+    font-family: Nunito;
+    font-size: 16px;
+    color: #0036bf;
+}
+.check-2 ul li{
+
+
+    padding: 7px 0 7px 40px;
+    list-style: none;
+    background: url(img/corrigido-2.png) no-repeat left center;
+}
+/*LISTA UL*/
+.div{
+    width: 245px;
+    height: 245px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background: url(img/pagamento.png) no-repeat left center;
+}
+.div00{
+    width: 245px;
+    height: 245px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background: url(img/api.png) no-repeat left center;
+}
+.div000{
+    width: 245px;
+    height: 245px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background: url(img/app.png) no-repeat left center;
+}
+.div0000{
+    width: 245px;
+    height: 245px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background: url(img/desktop.png) no-repeat left center;
+}
+.visao{
+    width: 245px;
+    height: 245px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background: url(img/visao.png) no-repeat left center;
+}
+.trans{
+    width: 245px;
+    height: 245px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background: url(img/prosp.png) no-repeat left center;
+}
+.mind{
+    width: 245px;
+    height: 245px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background: url(img/mind.png) no-repeat left center;
+}
+.master{
+    width: 245px;
+    height: 245px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background: url(img/financas.png) no-repeat left center;
+}
+.title{
+    width: 182px;
+    height: 53px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.81;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.texto{
+    width: 162px;
+    height: 80px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.81;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.preco{
+    width: 50px;
+    height: 22px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-decoration: line-through;
+    line-height: 1.81;
+    letter-spacing: normal;
+    text-align: left;
+
+    color: #c1c1c1;
+}
+.btn-info{
+    width: 47px;
+    height: 12px;
+    font-family: Nunito;
+    font-size: 9px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.22;
+    letter-spacing: normal;
+    color: #ffffff;
+    border-radius: 11px;
+    background-color: #0036bf;
+    padding: 5px;
+    margin-left: -5px;
+}
+.btn-info a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*MENTORIAS*/
+.youtube{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+iframe{
+    width: 100%;
+}
+.bg-facebook{
+    background: white;
+}
+/*AVALIAÇÕES*/
+.div-2{
+
+    border: solid 1px #707070;
+    background-color: #ffffff;
+}
+.plano{
+    height: 34px;
+    font-family: Nunito;
+    font-size: 25px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0036bf;
+}
+.price{
+
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0036bf;
+}
+.price-2{
+
+    font-family: Nunito;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0036bf;
+}
+.cor{
+    text-decoration: line-through;
+    color: #ff9100;
+}
+/*PLANO*/
+
+
+.sub-title{
+    font-weight: bold;
+}
+/*Estilo subtitle - O que tem na comundade?*/
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
